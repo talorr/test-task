@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('https://yastatic.net/s3/home/fonts/ys/4/text-regular.woff') format('woff'),
+}
+@font-face {
+    font-family: 'CustomFontMedium';
+    src: url('https://yastatic.net/s3/home/fonts/ys/4/text-medium.woff') format('woff'),
+}
+@font-face {
+    font-family: 'CustomFontBold';
+    src: url('https://yastatic.net/s3/home/fonts/ys/4/text-black.woff') format('woff');
+}
+* {
+    font-family: 'CustomFont', sans-serif;
+}
+.medium {
+    font-family: 'CustomFontMedium', sans-serif;
+}
+.bold {
+    font-family: 'CustomFontBold', sans-serif;
+}
